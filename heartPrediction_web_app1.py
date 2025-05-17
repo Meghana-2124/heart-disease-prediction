@@ -11,7 +11,7 @@ import streamlit as st
 from PIL import Image
 
 # Loading the saved model
-loaded_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users\HP\Desktop\test/heart_disease_model.sav', 'rb'))
 
 
 # Creating a function for prediction
